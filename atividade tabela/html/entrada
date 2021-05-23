@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo2.css" type="text/css">
+    <title>RECEITA DE ENTRADA</title>
+</head>
+<body>
+
+    <img src="../img/salada.jpg" class="imagem" width="30%" height="50%" />
+        <h1>SALADA SIMPLES</h1>
+        <h3>INGREDIENTES</h3>
+        <ul>
+        <li> 1 alface americano</li>
+
+        <li> 2 cenouras raladas </li>
+
+        <li> 1 tomate sem semente </li>
+     
+        <li> 1 colher (chá) de sal </li>
+
+        <li> 1 colher (sopa) de azeite extra virgem de oliva </li>
+
+        <li> 2 a 3 colheres de vinagre </li>
+    
+
+    </ul>
+    <br>
+    <h3>MODO DE FAZER</h3>
+    <ol>
+
+        <li> Lave bem todos os ingredientes. </li>
+        <br>
+        <li> Rasgue as folhas do alface para que fiquem menores. Rale as cenouras e a beterraba. O tomate, após estar sem pele e semente, deve ser picado. A cebola pode ser cortada em pedacinhos ou em rodelas, como preferir. Junte tudo.</li>
+        <br>
+        <li> Junte o sal, azeite e vinagre em uma xícara.</li>
+        <br>
+        <li>Misture bem com uma colher e despeje sobre a salada. </li>
+        <br>
+        <li> Sirva </li>
+
+    </ol>
+
+    <br>
+    <a href="../index.html"><button class="botao">RECEITAS</button></a>
+    <br><br>
+</body>
+</html>
