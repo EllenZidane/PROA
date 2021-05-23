@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/receita.jpg);
+    background-size: 100% 900px;
+    font-family: sans-serif;
+    font-size: 2em;
+    color: #0020ff;
+    justify-content: left;
+    text-align: center;
+    margin-bottom: 1em;
+    
+}
+
+
+
+
+#conteudo{
+	position:absolute;
+	width:80%;
+	height:500px;	
+    margin-left: 120px;
+    color: black;
+    background-color:rgba(202, 200, 57, 0.493);
+		
+}
+
+
+
+#botao {
+    font-size: 55px;
+    background: #a37827;
+    border: 1;
+    margin-bottom: 1em;
+    color: #000000;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    cursor: pointer;
+    margin-left: 200px;
+    
+}
+
