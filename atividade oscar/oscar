@@ -1,0 +1,69 @@
+-- phpMyAdmin SQL Dump
+-- version 5.0.2
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1:3306
+-- Tempo de geração: 28-Abr-2021 às 14:16
+-- Versão do servidor: 5.7.31
+-- versão do PHP: 7.3.21
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Banco de dados: `oscar`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `vencedor`
+--
+
+DROP TABLE IF EXISTS `vencedor`;
+CREATE TABLE IF NOT EXISTS `vencedor` (
+  `categoria` varchar(100) NOT NULL,
+  `nome` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`categoria`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Extraindo dados da tabela `vencedor`
+--
+
+INSERT INTO `vencedor` (`categoria`, `nome`) VALUES
+('Melhor Filme', 'Meu pai'),
+('Melhor Atriz', 'Frances McDormand'),
+('Melhor Ator', 'Anthony Hopkins'),
+('Melhor Direção', 'Chloé Zhao'),
+('Melhor Atriz Coadjuvante', 'Youn Yuh-Jung'),
+('Melhor Ator Coadjuvante', 'Daniel Kaluuya'),
+('Melhor Filme Internacional', 'Druk'),
+('Melhor Roteiro Adaptado', 'Meu Pai'),
+('Melhor Roteiro Original', 'Bela Vingança'),
+('Melhor Figurino', 'A Voz Suprema do Blues'),
+('Melhor Trilha Sonora', 'Soul'),
+('Melhor Animação', 'Soul'),
+('Melhor Curta de Animação', 'If Anything Happens I Love You'),
+('Melhor Curta-Metragem em Live Action', 'Two Distant Strangers'),
+('Melhor Documentário', 'My Octopus Teacher'),
+('Melhor Documentário de Curta-Metragem', 'Colette'),
+('Melhor Som', 'O Som do Silêncio'),
+('Canção Original', 'Fight for You - Judas e o Messias Negro'),
+('Maquiagem e Cabelo', 'A Voz Suprema do Blues'),
+('Efeitos Visuais', 'Tenet'),
+('Melhor Fotografia', 'Mank'),
+('Melhor Edição', 'O Som do Silêncio'),
+('Melhor Design de Produção', 'Mank');
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
