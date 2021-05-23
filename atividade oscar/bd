@@ -1,0 +1,21 @@
+Quantas vezes Natalie Portman foi indicada ao Oscar?
+Quantas ela ganhou?
+
+SELECT COUNT(Won), FROM vencedoresdooscar WHERE Won = "Yes" and Nominee = "Natalie Portman";
+
+SELECT COUNT(Won) FROM vencedoresdooscar WHERE Nominee = "Natalie Portman";
+
+Amy Adams já ganhou algum Oscar?
+
+SELECT COUNT(Won) FROM vencedoresdooscar WHERE Won = "Yes" and Nominee = "Amy Adams";
+
+Toy Story 3 ganhou Oscar em quais anos?
+
+SELECT Years FROM vencedoresdooscar WHERE Nominee =  "Toy Story 3";
+
+
+Quem tem mais Oscars: a categoria "Melhor Ator" ou "Melhor Filme"?
+
+SELECT COUNT(*), nominee FROM vencedoresdooscar WHERE category = "best picture" and Won ="Yes";
+
+SELECT COUNT(*), nominee FROM vencedoresdooscar WHERE category = "actor -- Leading role" and Won ="Yes";
