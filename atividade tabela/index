@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen">
+    <title>RECEITAS</title>
+</head>
+<body>
+   <br><br>
+   <div id="conteudo">
+</div>
+   
+    <h1>RECEITAS DA ELLENZINHA</h1>
+    <br>
+  <div id="botao">
+    <table border="3" >
+        <tr>
+           <th>Receitas</th>
+           <th>Link</th>
+        </tr>
+        <tr>
+           <td>Receita de Entrada</td>
+           <td><a href="html/entrada.html">Acessar</td></a>
+         </tr>
+         <tr>
+           <td>Receita Principal</td>
+           <td><a href="html/principal.html">Acessar</td></a>
+         </tr>
+         <tr>
+           <td>Receita de Sobremesa</td>
+           <td><a href="html/sobremesa.html">Acessar</td></a>
+         </tr>
+        
+     </table>
+   </div>
+</body>
+</html>
