@@ -37,6 +37,13 @@ p{
     max-width: 25%;
 }
 
+.perfil2{
+    display:block;
+    margin: 25px auto;
+    max-width: 45%;
+}
+
+
 .barra-lateral-esquerda, .barra-lateral-direita {
     width:15%;
     display:inline-block;
