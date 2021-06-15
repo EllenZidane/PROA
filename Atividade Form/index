@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
+    <script>jQuery(document).ready(function($) { 
+        $(".scroll").click(function(event){        
+            event.preventDefault();
+            $('html,body').animate({scrollTop:$(this.hash).offset().top}, 400);
+       });
+    });</script>
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <nav class="menu">
+            <ul>			
+                    <li><a class="scroll" href="#intro">INICIO </a></li>
+                    <li><a class="scroll" href="#amigos">AMIGA </a></li>
+                    <li><a class="scroll" href="#profissional">PROFISSIONAL </a></li>
+                    <li><a class="scroll" href="#habilidades">HABILIDADES </a></li>
+                    <li><a  class="scroll" href="#estudante">ESTUDANTE </a></li>
+                    <li><a  class="scroll" href="#namorada">NAMORADA </a></li>
+            </ul>
+        </nav>  
+        </header>
+
+        <div id="intro" class="intro">
+             
+            <div id="titulo1">
+            <h1>AS AVENTURAS DE ELLEN</h1>
+            <h2>Navegue pela minha bandeira</h2> 
+        </div>
+
+            <div id="conteudo"> 
+            <img src="img/calton.gif" alt="teste">
+            <p>BEM VINDO USUARIO, aqui você conhecerá tudo sobre a Programmer Ellen e sua vida, seja ela profissional
+                ou pessoas, afinal se não tivesse essas duas partes, não existiria Ellen certo? Então vamos lá
+                aqui você irá conhecer as opiniões dos amigos dela, eles fizeram um pequeno comentário no Twitter falando
+                sobre ela, também seu modo profisional dizendo como ela é e como quer ser, suas habilidades mais notadas
+                pelas pessoas variando do artistico ao profissional, sua vida na escola como estudante junto com seus 
+                processos seletivos e também no final teremos uma participação de sua namorada falando sobre ela e uma playlist 
+                dedicada.
+                Caso queira conhecer com mais detalhes é só <a href="html/Sobre mim/index.html">clicar aqui</a> 
+                e você conhecerá cada detalhe da Ellen. Bom é isso, boa sorte e navegue pela minha bandeira.🏳️‍🌈</p>
+                <img src="img/calton.gif" alt="teste">
+            </div>
+        
+            
+        </div>
+
+        <div id="amigos" class="amigos">
+        <div id="titulo2"> <h1>COMO AMIGA</h1></div>
+            <div id="reaction">
+            <img src="img/giovana.jpg" alt="comentario">
+            <img src="img/ester.jpg" alt="comentario">
+            <img src="img/forno.jpg" alt="comentario">
+            <img src="img/giselle.jpg" alt="comentario">
+            <img src="img/isa.jpg" alt="comentario">
+            <img src="img/ivana.jpg" alt="comentario">
+            <img src="img/julia.jpg" alt="comentario">
+            <img src="img/julya.jpg" alt="comentario">
+            <img src="img/kamy.jpg" alt="comentario">
+            <img src="img/lusca.jpg" alt="comentario">
+            <img src="img/rique.jpg" alt="comentario">
+            <img src="img/yago.jpg" alt="comentario">
+            <img src="img/pias.jpg" alt="comentario">
+            <img src="img/brenda.jpg" alt="comentario">
+            <img src="img/wanessa.jpg" alt="comentario">
+            
+    
+        </div></div>
+
+        <div id="profissional" class="profissional">
+           <div id="titulo3"><h1>COMO PROFISSIONAL</h1> </div>
+            <div id="conteudopro">
+            <div id="souequero">
+            <h2>COMO EU SOU:</h2>
+            <img src="img/tiana.gif" alt="profissional"> <span>Empenhada como a Tiana</span>
+            <img src="img/will.gif" alt="profissional"> <span>Humorada como Will Smith</span>
+            <img src="img/thiago.gif" alt="profissional"> <span>Determinada como Thiago Ventura</span>
+            </div>
+
+            <div id="souequerotxt">
+                <p> Ellen tem seu lado brincadeiras mas também tem seu lado profissional, como programadora, ela prosseguir
+                    habilidades essenciais para seu trabalho, mas também existem requisitos que ela pode melhorar.
+                    Observe nas colunas as informações, ao lado esquerdoo temos como ela é hoje, e ao lado direito como
+                    ela pretende ser, Ellen ja está trabalhando para se tornar o que ela tanto deseja, mas ainda está em
+                    processo.</p>
+            </div>
+
+            <div id="souequero">
+                <h2>COMO QUERO SER:</h2>
+                <img src="img/felicity.gif" alt="profissional"> <span>  Programadora como Felicity</span>
+                <img src="img/max.gif" alt="profissional"> <span>Comunicativa como a Max</span>
+                <img src="img/barbie.gif" alt="profissional"> <span>Multi tarefa como a Barbie</span>
+                </div>
+                  </div> 
+        </div>
+
+        <div id="habilidades" class="habilidades">
+            <div id="titulo4"><h1>MINHAS HABILIDADES</h1></div>
+           
+            <div id="conteudohab">
+            <div id="i">
+                <h2>MÚSICA</h2>
+                <img src="img/musica.gif" alt="habilidades">
+                <p>Ellen desde de seus 12 anos de idade busca conhecimentos na área e Música, sempre foi uma das
+                    suas maiores inspirações, ela toca diversos instrumentos sejam eles de percussão ou até de
+                    sopro, de fato ela levará seus conhecimentos para a vida.
+                </p>
+            </div>
+
+            <div id="i">
+                <h2>TEATRO</h2>
+                <img src="img/teatro.gif" alt="habilidades">
+                <p>Sempre no mundo artistico, Ellen resolve entrar para o teatro da igreja, sempre gostou do mundo
+                    da atuação, nas brincadeiras sempre usava sua imaginação, e isso foi crescendo,
+                     hoje ela pensa em fazer um curso de teatro, mas não atua como antes.
+                </p>
+            </div>
+            <div id="i">
+                <h2>PROGRAMAÇÃO</h2>
+                <img src="img/programacao.gif" alt="habilidades">
+                <p>Programmer, foi assim que a chamaram, depois que entrou na Etec, seu coração passou a amar 
+                    desesperadamente a área da programação, em especial
+                  na parte do Back End, ver as coisas funcionando sempre foi e sempre será sua grande paixão. </p>
+            </div>
+        </div>
+
+        </div>
+    
+
+        <div id="estudante" class="estudante">
+            <div id="titulo5"><h1>COMO ESTUDANTE</h1></div>
+            <div id="contee">
+            <div id="conteudoestudante">
+
+            <h2>Ensino Fundamental</h2>
+        <p>Uma aluna que tinha dificuldades em criar novas amizades, pois vivia se mudando. Na aula nunca falava, 
+            mas sempre estava em alerta, em seu ultimo ano do fundamental resolveu se arriscar e concorrer a uma 
+            vaga na conhecida e renommada Etec, ela resolveu então entrar no curso de Informática, não porque 
+            gostava, mas por influência de sua familia.
+        </p>
+            <h2>Ensino Médio</h2>
+            <p>Ellen conseguiu entrar na Etec Jardim Ângela, e passsou a fazer o curso de Informática, no
+                começo era uma grande novidade para ela, e se sentiu um pouco confusa em relacionar o Ensino Médio
+                com o curso, mas ela conseguiu compreender e passou a amar a área da programação, então ela decidiu 
+                continuar seus caminhos como Desenvolvedora Back End.
+            </p>
+            <h2>Tempos Atuais</h2>
+            <p>Hoje ela já  terminou seu Ensino Médo, junto com seu TCC que foi aprovado com mérito e elogiado 
+                fotemente pelos seus professores e coordenadores, agora ela faz um curso de Desenvolvedor Web, na 
+                Instituição Proa, e ela continua a se identificar cada dia mais na área Back End e está pronta para
+                prosseguir nessa área de atuação.
+            </p>
+        </div>
+
+        <div id="conteudoestudante">   
+            <img src="img/af.png" alt="teste">
+            <img src="img/etec.png" alt="teste">
+            <img src="img/proa.png" alt="teste">
+               </div>
+        </div>
+       </div>
+
+       <div id="namorada" class="namorada">
+               <div id="titulo4"><h1>COMO NAMORADA</h1></div>
+               <img src="img/gatito.gif" alt="gatin" class="gif">
+               <div id="conteudonamo">    
+                   <img src="img/kamy.png" alt="kamy"> 
+                   <iframe src="https://open.spotify.com/embed/playlist/614thvHLKskiisTBhPutl2?theme=0" frameBorder:0; 
+                   id="spotify" allowtransparency="true" allow="encrypted-media"></iframe> 
+                
+            </div>
+            <div id="conteudonamo">
+                <p> De acordo com a especialista Kamilly da Costa Sa: "A Ellen é muito parecida com a ravena, toda
+                     trevosa por fora, parece ser muito brava,mas quando você conhece descobre que ela não é nada
+                      disso e sim uma menina extremamente fofa,carinhosa, tímida  e muito dramática. Muito muito
+                       inteligente, mas sua timidez não deixa todos descobrirem isso."  </p></div>
+               
+                   
+       
+       <div id="rodape">
+        <a href="https://www.instagram.com/_ellzi/"><img src="img/instagram.png" alt="INSTAGRAM"> </a>
+        <a href="https://www.linkedin.com/in/ellen-zidane/"><img src="img/linkedin.png" alt="LINKEDIN"> </a>
+        <a href="https://github.com/EllenZidane"><img src="img/github.png" alt="LINKEDIN"> </a>
+
+       </div>
+    </div>
+</body>
+</html>
