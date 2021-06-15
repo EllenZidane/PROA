@@ -1,0 +1,383 @@
+*{
+    margin: 0; /* Aqui para zerar toda margem*/
+    padding: 0; /* Aqui para zerar espaçamento */
+    box-sizing: border-box; /*define como a largura altura dos elementos são calculados*/
+    font-family: 'itim', cursive; 
+}
+
+.menu{
+	float:left; /*Aqui para deixar o menu modo linha */
+	font-size:1.5vw; /*Tamanho da fonte de acordo com a tela*/
+    width: 100%; 
+    
+}
+
+.menu li{
+    float: left;
+    padding: 20px;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 1; /*pra sobrepor tudo e deixar principal*/
+}
+
+.menu li a{
+    color: rgb(255, 255, 255);
+	text-decoration: none;	
+	}
+	
+
+.menu li a:hover{
+	color:#e79600; 
+	text-shadow:0px 0px 2px rgb(236, 165, 165); 
+}
+
+.intro{
+    background-color: #fc2e2e;
+    display: flex;
+    align-items: center; /*Aqui alinhamento dos item da div*/
+    flex-direction: column; /* Aqui deixa o conteudo em coluna */
+    width: 100%;
+    position: relative;
+    height: 648px;
+    padding-top: 30px;
+    color: rgb(255, 255, 255);
+}
+
+
+#conteudo{
+display: flex;/*Aqui deixa a div flexionar conforme o manuseio da tela*/
+align-items: center;
+flex-direction: row; /* Aqui deixa o conteudo em linha */
+padding: 10px;
+}
+
+    #conteudo img{
+        width: 20vw;
+        
+    }
+
+    #conteudo p{
+      
+        width: 50%;
+        height: auto;
+        margin: 10px;
+        text-align: justify;
+        font-size: 1.8vw;
+        overflow: hidden; /* Aqui oculta o conteudo quando transbordar */
+    }
+
+    #conteudo p a{
+        color: white;
+    }
+
+#titulo1{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.amigos{
+    background-color: #faa032;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 648px;
+    position: relative;
+}
+
+#titulo2{
+    padding: 20px;
+    margin: 40px;
+    text-align: center;
+}
+
+.amigos img{
+    width: 19vw;
+    border-radius: 10px;
+    padding: 3px;
+
+}
+
+#reaction{
+    width: 99%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    justify-content: center;
+    display: flex;
+ 
+}
+
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.profissional{
+    width: 100%;
+    height: 648px;
+    background-color: #f9ff4f;
+    color: #04113b;
+  
+}
+
+#conteudopro{
+    display: flex;
+    flex-direction: row;
+}
+
+#souequero{
+    width: 30%;
+    margin: 10px;
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#souequerotxt{
+    width: 30%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+   text-align: justify;
+
+}
+
+#souequerotxt p{
+    font-size: 2vw;
+
+}
+
+#souequero img{
+    width: 18vw;
+    height: 10vw;
+}
+
+#titulo3{
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    margin-left: -60px;
+    
+}
+
+
+.habilidades{
+    width: 100%;
+    height:648px;
+    background-color: #68e050;
+    color: #ffffff;
+ 
+}
+
+#conteudohab{
+    margin-top: -50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#i{
+    width: 22%;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+#i img{
+    border-radius: 12px;
+    width: 25vw;
+    height: 20vw;
+    margin: 20px;
+}
+
+#i h2{
+    color: #ffffff;
+}
+
+#titulo4{
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    color: #ffffff;
+}
+
+.estudante{
+    width: 100%;
+    height: 660px;
+    background-color: #65e9f5;
+}
+
+#titulo5{
+    text-align: center;
+    padding: 50px;
+}
+
+#contee{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#conteudoestudante{
+    align-items: center;
+    width: 40%;
+    display: flex;
+    font-size: 1.3vw;
+    text-align: justify;
+    overflow: hidden; 
+    flex-direction: column; 
+    justify-content: center;
+    }
+    
+        #conteudoestudante img{
+            width: 15vw;
+           
+        }
+
+.namorada{
+    background-color: #bdb2ff;
+    width: 100%;
+    height: 610px;
+    color: #ffffff;
+    
+
+}
+
+#conteudonamo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    
+}
+
+#conteudonamo img{
+    width: 50%;
+    
+    
+}
+
+#conteudonamo p{
+    font-size: 2vw;
+    width: 100%;
+    text-align: justify;
+}
+#spotify{
+    width: 100%;
+}
+
+.gif{
+    width: 100%;
+    height: 30px;
+    
+}
+
+#rodape{
+    background-color: #8e7affd5;
+    margin-top: 20px;
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#rodape img{
+    margin-left: 20px;
+    border-radius: 12px;
+     width: 30px;
+     height: 30px;
+}
+
+
+@media screen and (max-width: 500px) {
+    #conteudo{
+        flex-direction: column;
+    }
+   #conteudo p{
+       width: 80%;
+      font-size: 2.8vw;
+   }
+   #conteudo img{
+       width: 60vw;
+   }
+
+   .amigos img{
+    width: 33vw;
+   }
+
+   #conteudohab{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:100%;
+}
+
+#i{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    margin: 0;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify;
+}
+
+#i p{
+    overflow: hidden;
+    height: 50%;
+    font-size: 3vw;
+}
+
+#i h2{
+    display: none;
+   
+}
+
+#contee{
+    justify-content: center;
+}
+
+#conteudoestudante{
+    font-size: 2.6vw; 
+    margin: 0;
+    width: 50%;
+}
+
+#conteudonamo{
+    width: 1005;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#conteudonamo img{
+    width: 100%;
+}
+
+#conteudonamo p{
+    font-size: 2.5vw;
+}
+
+
+}
+
+
+ 
+        
+
+
+
