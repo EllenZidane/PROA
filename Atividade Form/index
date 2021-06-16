@@ -15,7 +15,7 @@
             $('html,body').animate({scrollTop:$(this.hash).offset().top}, 400);
        });
     });</script>
-    <title>Document</title>
+    <title>PROGRAMMER</title>
 </head>
 <body>
 
@@ -35,21 +35,21 @@
         <div id="intro" class="intro">
              
             <div id="titulo1">
-            <h1>AS AVENTURAS DE ELLEN</h1>
+            <h1>UMA PROGRAMMER CHECK</h1>
             <h2>Navegue pela minha bandeira</h2> 
         </div>
 
             <div id="conteudo"> 
             <img src="img/calton.gif" alt="teste">
-            <p>BEM VINDO USUARIO, aqui você conhecerá tudo sobre a Programmer Ellen e sua vida, seja ela profissional
-                ou pessoas, afinal se não tivesse essas duas partes, não existiria Ellen certo? Então vamos lá
+            <p>BEM VINDO USUARIO, aqui você conhecerá tudo sobre uma Programmer internacional e sua vida, seja ela profissional
+                ou pessoas, afinal se não tivesse essas duas partes, não existiria ela certo? Então vamos lá
                 aqui você irá conhecer as opiniões dos amigos dela, eles fizeram um pequeno comentário no Twitter falando
                 sobre ela, também seu modo profisional dizendo como ela é e como quer ser, suas habilidades mais notadas
                 pelas pessoas variando do artistico ao profissional, sua vida na escola como estudante junto com seus 
                 processos seletivos e também no final teremos uma participação de sua namorada falando sobre ela e uma playlist 
                 dedicada.
                 Caso queira conhecer com mais detalhes é só <a href="html/Sobre mim/index.html">clicar aqui</a> 
-                e você conhecerá cada detalhe da Ellen. Bom é isso, boa sorte e navegue pela minha bandeira.🏳️‍🌈</p>
+                e você conhecerá cada detalhe. Bom é isso, boa sorte e navegue pela minha bandeira.🏳️‍🌈</p>
                 <img src="img/calton.gif" alt="teste">
             </div>
         
@@ -89,10 +89,10 @@
             </div>
 
             <div id="souequerotxt">
-                <p> Ellen tem seu lado brincadeiras mas também tem seu lado profissional, como programadora, ela prosseguir
+                <p> Tem seu lado brincadeiras mas também tem seu lado profissional, como programadora, ela prosseguir
                     habilidades essenciais para seu trabalho, mas também existem requisitos que ela pode melhorar.
                     Observe nas colunas as informações, ao lado esquerdoo temos como ela é hoje, e ao lado direito como
-                    ela pretende ser, Ellen ja está trabalhando para se tornar o que ela tanto deseja, mas ainda está em
+                    ela pretende ser, ela ja está trabalhando para se tornar o que tanto deseja, mas ainda está em
                     processo.</p>
             </div>
 
@@ -112,7 +112,7 @@
             <div id="i">
                 <h2>MÚSICA</h2>
                 <img src="img/musica.gif" alt="habilidades">
-                <p>Ellen desde de seus 12 anos de idade busca conhecimentos na área e Música, sempre foi uma das
+                <p>Essa programmer desde de seus 12 anos de idade busca conhecimentos na área de Música, sempre foi uma das
                     suas maiores inspirações, ela toca diversos instrumentos sejam eles de percussão ou até de
                     sopro, de fato ela levará seus conhecimentos para a vida.
                 </p>
@@ -121,7 +121,7 @@
             <div id="i">
                 <h2>TEATRO</h2>
                 <img src="img/teatro.gif" alt="habilidades">
-                <p>Sempre no mundo artistico, Ellen resolve entrar para o teatro da igreja, sempre gostou do mundo
+                <p>Sempre no mundo artistico, ela resolve entrar para o teatro da igreja, sempre gostou do mundo
                     da atuação, nas brincadeiras sempre usava sua imaginação, e isso foi crescendo,
                      hoje ela pensa em fazer um curso de teatro, mas não atua como antes.
                 </p>
@@ -150,7 +150,7 @@
             gostava, mas por influência de sua familia.
         </p>
             <h2>Ensino Médio</h2>
-            <p>Ellen conseguiu entrar na Etec Jardim Ângela, e passsou a fazer o curso de Informática, no
+            <p>AMAZING, ela conseguiu entrar na Etec Jardim Ângela, e passsou a fazer o curso de Informática, no
                 começo era uma grande novidade para ela, e se sentiu um pouco confusa em relacionar o Ensino Médio
                 com o curso, mas ela conseguiu compreender e passou a amar a área da programação, então ela decidiu 
                 continuar seus caminhos como Desenvolvedora Back End.
@@ -181,7 +181,7 @@
                 
             </div>
             <div id="conteudonamo">
-                <p> De acordo com a especialista Kamilly da Costa Sa: "A Ellen é muito parecida com a ravena, toda
+                <p> De acordo com a especialista Kamilly da Costa Sa: "É muito parecida com a ravena, toda
                      trevosa por fora, parece ser muito brava,mas quando você conhece descobre que ela não é nada
                       disso e sim uma menina extremamente fofa,carinhosa, tímida  e muito dramática. Muito muito
                        inteligente, mas sua timidez não deixa todos descobrirem isso."  </p></div>
